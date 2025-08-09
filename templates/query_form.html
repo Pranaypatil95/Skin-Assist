@@ -1,0 +1,71 @@
+
+
+{% extends 'base.html' %}
+
+{% block content %}
+<style>
+    h2 {
+        text-align:center;
+        color: #3498db; /* Light blue color for the heading */
+    }
+    
+    form {
+        max-width: 400px;
+        margin: 0 auto;
+        background-color: #ecf0f1; /* Light blue background color for the form */
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle lift effect */
+        transition: box-shadow 0.3s ease; /* Smooth transition for box shadow */
+    }
+    
+    form:hover {
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Increase box shadow on hover */
+    }
+    
+    form input[type="text"],
+    form input[type="email"],
+    form textarea {
+        width: 100%;
+        padding: 12px; /* Increased padding for input fields */
+        margin-bottom: 15px;
+        border: 1px solid #bdc3c7; /* Light gray border for input fields */
+        border-radius: 6px;
+        transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for border color and box shadow */
+    }
+    
+    form input[type="text"]:focus,
+    form input[type="email"]:focus,
+    form textarea:focus {
+        border-color: #3498db; /* Border color on focus */
+        box-shadow: 0 0 10px rgba(52, 152, 219, 0.5); /* Box shadow on focus */
+    }
+    
+    button {
+        background-color: #3498db; /* Light blue background color for the button */
+        color: white;
+        padding: 14px 20px; /* Increased padding for the button */
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition for background color and scale */
+    }
+    
+    button:hover {
+        background-color: #2980b9; /* Darker blue on hover */
+        transform: scale(1.05); /* Scale the button on hover */
+        box-shadow: 0 0 10px rgba(52, 152, 219, 0.5); /* Box shadow on hover */
+    }
+    
+        
+</style>
+    <h2>Query Form</h2>
+    <form method="post" action="{% url 'query_view' %}">
+
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Submit Query</button>
+    </form>
+    <br><br>
+    
+{% endblock %}

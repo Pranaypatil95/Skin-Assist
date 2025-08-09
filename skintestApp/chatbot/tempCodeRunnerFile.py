@@ -1,0 +1,1 @@
+print(f"{bot_name}: {random.choice(intent['responses'])}")

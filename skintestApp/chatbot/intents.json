@@ -1,0 +1,286 @@
+{
+    "intents": [{
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hii",
+                "Hiii",
+                "Hiiii",
+                "Hiiiii",
+                "Hiiiiii",
+                "Hiiiiiii",
+                "Hey",
+                "How are you",
+                "Is anyone there?",
+                "Hello",
+                "Good day"
+            ],
+            "responses": [
+                "Hey :-)",
+                "Hello, How can I help you?",
+                "Hi there, what can I do for you?",
+                "Hi there, how can I help?",
+                "okay cool"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye"],
+            "responses": [
+                "See you later, thanks for visiting",
+                "Have a nice day",
+                "Bye! Come back again soon.",
+                "What more can i assist you?"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!", "ok thankyou", "well done"],
+            "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {
+            "tag": "check_skin",
+            "patterns": [
+                "How can I check my skin?",
+                "How to check skin?",
+                "How to use app?",
+                "How to check skin, tell me step-by-step process",
+                "check skin step-by-step process"
+            ],
+            "responses": [
+                "Here are the steps to be followed:\n1.Click 'Check your Skin' button\n2.Accept the Terms&Condition\n3.In this step Instrution is given follow that Instruction abd click images.\n4.Upload the infected area and if you a doctor select Doctor otherwise User.\nResult will be shown in few seconds hardly a min.If you get result as any disease we recemmond you to use our feature 'Find nearby dermetaloist' and visit them.\nIn this way you can check your skin."
+            ]
+        },
+        {
+            "tag": "detection",
+            "patterns": [
+                "How many skin diseases  this app can detect?",
+                "What is the objective of skin disease detection?",
+                "How does skin detection work?"
+            ],
+            "responses": [
+                "This app is trained to detect 7-8 skin diseases/cancer",
+                "The objective of this system is to detect the skin diseases based on the image provided by the user and help the user in the early detection of the skin disease.",
+                "A skin detector typically transforms a given pixel into an appropriate color space and then use a skin classifier to label the pixel whether it is a skin or a nonskin pixel."
+            ]
+        },
+        {
+            "tag": "cost_app",
+            "patterns": [
+                "Is this app require any cost",
+                "Cost of app?",
+                "What is the cost of app"
+            ],
+            "responses": [
+                "No,This app is cost free for the users/doctors.",
+                "This app is cost free for the users/doctors."
+            ]
+        },
+        {
+            "tag": "find",
+            "patterns": [
+                "How can i contact dermatologist",
+                "How can I find my nearest dermatologist?",
+                "How can I find my nearest doctor?",
+                "How to find doctor?",
+                "how to fimd dermatologist",
+                "Can you find nearby doctor",
+                "Where can I find a doctor?",
+                "where i can find nearby dermatologist?",
+                "where i can find nearby derm"
+            ],
+            "responses": [
+                "Just tap the above button find nearby dermatologist, Enter your area pincode.\nAfter few second it will display you nearby dermatologist in MAP view."
+            ]
+        },
+        {
+            "tag": "for me",
+            "patterns": [
+                "what you can do for me.",
+                "what this app can do for me?"
+            ],
+            "responses": [
+                "I can assist you for this website, how can you use it."
+            ]
+        },
+        {
+            "tag": "doctor_cost",
+            "patterns": [
+                "What is the cost of dermatologist?",
+                "What is the cost of doctor?",
+                "Cost of doctor"
+            ],
+            "responses": [
+                "Sorry sir/mam, It differ from place to place and doctor to doctor. We can't suggest anything on this"
+            ]
+        },
+        {
+            "tag": "accuracy",
+            "patterns": [
+                "How accurate this app is?",
+                "What is the accuracy of the app"
+            ],
+            "responses": [
+                "This app is 80-90% accurate. But after diagnosis it shows healty skin but you find any kind of problem.\nWe recommend you to visit Doctor/Dermatologist.You can use our feature 'Find Nearby Dermatologist' to find Doctor/Dermatologist"
+            ]
+        },
+        {
+            "tag": "work",
+            "patterns": [
+                "How does app work?",
+                "How does this app work?"
+            ],
+            "responses": [
+                "This app work on trained model. It analyze the given image and after some image processing it predict the disease/cancer."
+            ]
+        },
+        {
+            "tag": "Skinassist",
+            "patterns": [
+                "What is this app?",
+                "What is skinassist app?",
+                "What is skin Assist app?"
+            ],
+            "responses": [
+                "This app helps you to find weather your skin is infected by any diseases/cancer or not.This app is 80-90% accurate.It also helps you to find near by doctor/dermatologist."
+            ]
+        },
+        {
+            "tag": "problem",
+            "patterns": [
+                "I have problem in skin",
+                "I have problem on my skin"
+            ],
+            "responses": [
+                "Okay, So currently I can assist you with Itiching,Rashes and Infection. You can also check your skin in this website by just uploading the problematic area image and result will be given in just a minute."
+            ]
+        },
+
+
+        {
+            "tag": "about_skin_assist",
+            "patterns": [
+                "How does SkinAssist analyze skin conditions?",
+                "Can SkinAssist identify skin cancer?",
+                "Is the use of SkinAssist free?",
+                "Are there age limitations for using SkinAssist?",
+                "How long does it take to get results from SkinAssist?",
+                "Can SkinAssist recommend treatments for identified skin conditions?"
+            ],
+            "responses": [
+                "SkinAssist uses advanced image recognition technology and machine learning to analyze skin conditions. It's not a replacement for professional diagnosis. SkinAssist is currently free for use and has no age limitations. Results are generated quickly, but it's recommended to consult a healthcare professional for specific treatments."
+            ]
+        },
+        {
+            "tag": "app_functionality",
+            "patterns": [
+                "What can I do with this app?",
+                "How does this app work?",
+                "What are the features of this app?",
+                "Is this app suitable for self-diagnosis?",
+                "What is the accuracy of the skin disease detection?",
+                "Does this app work on all skin tones?"
+            ],
+            "responses": [
+                "This app detects skin diseases through image analysis. It works with a machine learning model trained on a large dataset. Features include disease detection and a 'Find nearby dermatologist' option. Accuracy varies, and self-diagnosis is not recommended. The app works on most skin tones."
+            ]
+        },
+        {
+            "tag": "data_privacy",
+            "patterns": [
+                "How does this app protect my data?",
+                "What kind of data does this app collect?",
+                "How is my data used?",
+                "Can I delete my data from the app?",
+                "Who has access to my data?"
+            ],
+            "responses": [
+                "The app prioritizes user privacy with various protective measures. Only necessary data is collected for functionality and improvement. Users can request data deletion, and access is limited to authorized personnel."
+            ]
+        },
+        {
+            "tag": "technical_issues",
+            "patterns": [
+                "I am having trouble using the app. What can I do?",
+                "I am not getting any results. What is wrong?",
+                "The app is crashing. What should I do?",
+                "I am having trouble uploading images. How can I fix this?",
+                "I have a question that is not listed here. How can I contact support?"
+            ],
+            "responses": [
+                "For app issues, contact support. Ensure proper usage for accurate results. Restart the device for crashes. Check internet and image size for upload problems. Contact support via email or feedback form for additional questions."
+            ]
+        },
+        {
+            "tag": "skin_disease_info",
+            "patterns": [
+                "What skin diseases can this app detect?",
+                "How can I tell if I have a skin disease?",
+                "What are the symptoms of different skin diseases?",
+                "What are the treatment options for different skin diseases?",
+                "How can I prevent skin diseases?"
+            ],
+            "responses": [
+                "The app detects various skin diseases, including acne, eczema, psoriasis, and skin cancer. Early detection is crucial for effective treatment. Symptoms and treatments vary, and lifestyle changes can help prevent skin diseases."
+            ]
+        },
+        {
+            "tag": "detection_process",
+            "patterns": [
+                "How does this app detect skin disease?",
+                "What factors are considered when making a diagnosis?",
+                "What are the accuracy rates for different skin diseases?",
+                "What are the limitations of the detection process?",
+                "What should I do if I get a positive result on the app?"
+            ],
+            "responses": [
+                "The app uses a machine learning model for skin disease detection, considering color, texture, and shape. Accuracy rates vary, and limitations include the app not replacing professional diagnosis. Consult a doctor for confirmation and treatment if you receive a positive result."
+            ]
+        },
+        {
+            "tag": "using_the_app",
+            "patterns": [
+                "How do I use the app to check my skin?",
+                "What are some tips for taking good images?",
+                "What should I do if the app detects a potential disease?",
+                "Does the app offer any educational resources?",
+                "Can I find a dermatologist near me through the app?",
+                "What are some things the app could be improved on?",
+                "Where can I find more information about the app?"
+            ],
+            "responses": [
+                "To use the app, take a clear picture and upload it. Tips include good lighting, focus, and avoiding filters. If a potential disease is detected, consult a doctor. The app provides educational resources and a 'Find nearby dermatologist' feature. Improvement suggestions include more educational content, language support, and filters. More information is available on the app's website or through the developer."
+            ]
+        },
+        {
+            "tag": "user_experience",
+            "patterns": [
+                "What do you like most about this app?",
+                "What do you think could be improved?",
+                "Would you recommend this app to others?",
+                "How has this app helped you?",
+                "Do you have any feedback for the developers?"
+            ],
+            "responses": [
+                "Users appreciate the app's ease of use and features. Suggestions include more educational content. Overall, the app receives positive feedback and recommendations."
+            ]
+        },
+        {
+            "tag": "general_questions",
+            "patterns": [
+                "What is this app?",
+                "How does it work?",
+                "What skin diseases can it detect?",
+                "How accurate is it?",
+                "Is it a substitute for professional diagnosis?",
+                "Is it safe to use?",
+                "Is it free?",
+                "Can I book an appointment directly through the app?"
+            ],
+            "responses": [
+                "This app detects skin diseases through image analysis. It uses a machine learning model and can detect various diseases. Accuracy varies, and it's not a substitute for professional diagnosis. The app is safe and free to use. Booking appointments directly through the app is not currently available."
+            ]
+        }
+
+    ]
+}
